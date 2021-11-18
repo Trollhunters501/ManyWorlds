@@ -10,7 +10,7 @@ ManyWorlds
 * OptionalPlugins: n/a
 * Categories: Admin Tools, Teleportation
 * Plugin Access: Commands, Manages Worlds
-* WebSite: [github](https://github.com/poggit-orphanage/ManyWorlds/tree/master)
+* WebSite: [github](https://github.com/Trollhunters501/Trollhunters501)
 
 ## Overview
 Full feature set of commands to manage multiple worlds.
