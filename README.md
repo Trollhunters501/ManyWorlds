@@ -3,9 +3,6 @@
 ManyWorlds
 =========
 
-| Poggit | Discord |
-| :---: | :---: |
-[![Poggit](https://poggit.pmmp.io/ci.shield/poggit-orphanage/ManyWorlds/ManyWorlds)](https://poggit.pmmp.io/ci/poggit-orphanage/ManyWorlds/ManyWorlds) | <a href="https://discord.gg/NgHf9jt"><img src="https://discordapp.com/api/guilds/402639859535052811/embed.png" alt="Discord server"/></a> |
 
 * Summary: Manage Multiple Worlds
 * Dependency Plugins: n/a
@@ -24,7 +21,6 @@ Features:
 * load/unload
 * create
 * world info
-* edit level.dat
 
 ### Basic Usage
 
@@ -34,7 +30,6 @@ Features:
 * generators : List available world generators
 * load : Loads a world
 * ls : Provide world information
-* lvdat : Show/Modify level.dat variables
 * tp : Teleport to another world
 * unload : Unloads world
 
@@ -74,19 +69,6 @@ The following commands are available:
 
 * /mw **ls** _[world]_  
   Provide world information  
-
-  If _world_ is not specified, it will list available worlds.
-  Otherwise, details for _world_ will be provided.
-* /mw **lvdat** _&lt;world&gt;_ _[attr=value]_  
-  Show/Modify level.dat variables  
-
-  Change directly some **level.dat** values/attributes.  Supported
-  attributes:
-  - spawn=x,y,z : Sets spawn point
-  - seed=randomseed : seed used for terrain generation
-  - name=string : Level name
-  - generator=flat|normal : Terrain generator
-  - preset=string : Presets string.
 
 * /mw **tp** _[player]_ _&lt;world&gt;_  
   Teleport to another world  
