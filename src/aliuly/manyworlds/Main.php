@@ -27,7 +27,6 @@ class Main extends BasicPlugin implements CommandExecutor{
 			"MwCreate",
 			"MwGenLst",
 			"MwLoader",
-			"MwLvDat",
 			"MwDefault",
 		] as $mod){
 			$mod = __NAMESPACE__ . "\\" . $mod;
