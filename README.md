@@ -175,6 +175,7 @@ for sample files.
 
 # Changes
 
+* 2.3.0: Fixed the error of [19:15:26] [Server thread/CRITICAL]: ErrorException: ""continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"?" (EXCEPTION) in "plugins/ManyWorlds.phar/src/aliuly/manyworlds/MwLvDat" at line 86
 * 2.2.0: New API updates
 * 2.1.0: Updating to new API
 * 2.0.3: Bugfix update
