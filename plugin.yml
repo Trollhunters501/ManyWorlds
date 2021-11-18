@@ -4,8 +4,8 @@ load: POSTWORLD
 
 name: ManyWorlds
 description: Manage Multiple Worlds
-version: 2.2.0
-author: aliuly
+version: 2.3.0
+author: aliuly & Creadores
 
 commands:
   manyworlds:
@@ -33,9 +33,6 @@ permissions:
   mw.cmd.world.load:
     default: op
     description: "Allows users to load worlds"
-  mw.cmd.lvdat:
-    default: op
-    description: "Manipulate level.dat"
   mw.cmd.default:
     default: op
     description: "Changes default world"
