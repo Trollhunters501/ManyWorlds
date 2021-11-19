@@ -5,7 +5,7 @@ load: POSTWORLD
 name: ManyWorlds
 description: Manage Multiple Worlds
 version: 2.3.0
-authors: aliuly & Creadores
+author: aliuly & Creadores
 
 commands:
   manyworlds:
